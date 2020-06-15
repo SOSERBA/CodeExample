@@ -2,7 +2,8 @@
 
 $params = array(
 	"Identity" => "087xxxxxxxxx",
-	"Message" => "This text send from telegram"
+	"Message" => "This text send from telegram",
+  "Type" => "SMS" //Jika Type = SMS (untuk mengirim pesan normal) Jika Type = OTP untuk mengirim OTP
 ); 
 
 $curl = curl_init();
